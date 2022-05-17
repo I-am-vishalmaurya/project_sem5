@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  .nav-link .active, .nav-link, main{
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size:larger;
+  }
+  .nav-link .active{
+    color: #110887;
+  }
+  .navbar-brand{
+      font-family: 'Righteous', cursive;
+      font-size: x-large;
+  }
+  body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: larger;
+    background: linear-gradient(rgb(246, 241, 241), rgba(25, 107, 222, 0.736));
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: xx-large;
+    text-rendering: auto;
+    
+  }
+  .fa {
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    
+    color: #05214c;
+  }
+  
+  .fa-instagram {
+    
+    color:#05214c;
+  }
+  .fa-linkedin {
+    
+    color:#05214c;
+  }
+  .fa-github {
+    
+    color: #05214c;
+  }
+  /* contact page css*/
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #110887;
+    color: white;
+    padding: 12px 20px;
+    border:rgba(25, 107, 222, 0.736);
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: azure;
+    color: #110887;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .column h2 p{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  
